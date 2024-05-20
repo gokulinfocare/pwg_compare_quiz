@@ -132,8 +132,8 @@ def display_data(data):
         #pdb.set_trace()        
         with col1:
             st.write("### ChatGPT Version")
-            #st.write(rec['cgpt'])
-            st.text_area(rec['cgpt'])
+            st.write(rec['cgpt'])
+            #st.text_area(rec['cgpt'])
         with col2:
             st.write("### Gemini Version")
             st.write(rec['gem'])
